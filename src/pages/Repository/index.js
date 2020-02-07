@@ -1,7 +1,5 @@
 import React from 'react';
 
-function repository() {
-  return <h1>Repository</h1>
+export default function repository(props) {
+  return <h1>Repository: {decodeURIComponent(props.match.params.repository)}</h1>
 }
-
-export default repository;
