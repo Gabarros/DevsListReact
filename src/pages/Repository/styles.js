@@ -55,7 +55,6 @@ export const IssuesList = styled.ul`
     border: 1px solid #eee;
     border-radius: 4px;
 
-
     & + li {
     margin-top: 10px;
     }
@@ -65,7 +64,6 @@ export const IssuesList = styled.ul`
       height: 36px;
       border-radius: 50%;
       border: 2px solid #eee;
-
     }
 
     div{
@@ -82,8 +80,6 @@ export const IssuesList = styled.ul`
           &:hover{
             color: #7159c1;
           }
-
-
 
         }
         span{
